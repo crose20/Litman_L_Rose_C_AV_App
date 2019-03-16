@@ -1,0 +1,144 @@
+@import '_vars';
+@import 'modules/_main';
+@import 'modules/_usercomponent';
+@import 'modules/_footer';
+@import 'modules/_login';
+
+/* -------------------- General Page Rules -------------------- */
+* {
+  margin: 0px auto;
+  padding: 0px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+a:hover {
+  color: #8bd3a6;
+}
+
+a:active {
+  color: #8bd3a6;
+}
+
+h2 {
+  color: white;
+}
+
+/* Display No Content */
+.hidden {
+  display: none;
+}
+
+/* Display Content as Block */
+.block {
+  display: block;
+}
+
+/* -------------------- END: General Page Rules -------------------- */
+
+
+
+/* -------------------- Header/Nav Bar Rules -------------------- */
+/* Container at top of page that surrounds the nav bar */
+.nav_bar_cont {
+  background-color: #04151c;
+  width: 100%;
+}
+
+/* Links in Nav Bar */
+.nav_bar_links .menu {
+  background-color: #04151c;
+}
+
+.menu-text {
+  color: white;
+  font-size: 30px;
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 60px;
+  margin-bottom: 100px;
+  text-shadow: 0 0 10px #04151c;
+}
+
+.menu-item {
+  padding-top: 10px;
+}
+/* -------------------- END: Header/Nav Bar Rules -------------------- */
+
+
+
+/* Terms & Conditions Text */
+.terms_conditions {
+  width: 70%;  
+  color: #999;
+  font-size: 13px;
+  transition: all 0.5s;
+}
+
+/* Profiles shown when asked: 'Who's Watching?' upon first logging in */
+.user_profile {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+/* Main container in the body of index.html that holds all page content */
+#app {
+  background-image: url(../images/bg.jpeg);
+  background-size: cover;
+}
+
+/* 3 Media Type options: Audio, Video, Television - all have icons on page */
+.media-type {
+  margin-top: 100px;
+}
+
+/* List of the media genres avalible to watch */
+#app .container .row .media-info ul li {
+  color: white;
+  padding: 15px;
+  display: inline;
+  font-size: 20px;
+}
+
+/* List of the media genres avalible to watch (all of which are links) */
+#app .container .row .media-info ul li a {
+  background-color: transparent;
+  text-shadow: 0 0 10px #04151c;
+}
+
+.media-container {
+  color: white;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+/* Classes for the information being displayed about the media selection */
+.media-title {
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 0 0 10px #04151c;
+}
+
+.media-details, .media-time, .media-year {
+  font-size: 20px;
+  color: white;
+} 
+
+.img-thumbnail {
+  padding: 10px;
+}
+
+.thumb-wrapper {
+  margin-left: 25px;
+}
+
+
+ 

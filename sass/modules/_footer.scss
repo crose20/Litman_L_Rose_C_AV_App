@@ -1,0 +1,51 @@
+/* -------------------- Footer Page Rules -------------------- */
+footer {
+    background-color: #04151c;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+#footer
+{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.footer_social_icons
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.footer_social_icons img
+{
+    float: left;
+    width: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.footer_logo
+{
+    float: left;
+}
+
+.footer_links
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer_links ul
+{
+ list-style-type: none;
+ margin-bottom: 30px;
+}
+
+.footer_links li a
+{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    color: white;
+}
